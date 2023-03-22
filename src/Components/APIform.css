@@ -1,0 +1,100 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items:baseline;
+  font-family: Arial, sans-serif;
+  color: rgb(7, 4, 4);
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.card {
+  display: flex;
+  color: rgb(250, 245, 245);
+  flex-direction: column;
+  align-items: right;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 100%;
+  max-width: 600px;
+  border: #ccc;
+    /* existing styles */
+  margin: 0 auto;
+  
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.dog-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  color:rgb(248, 245, 245)
+}
+
+.ban-button {
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: #e2cfce;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ban-button:hover {
+  background-color: #d32f2f;
+}
+
+.ban-list {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  max-width: 600px;
+}
+
+.ban-list h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.ban-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ban-list li {
+  padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.right-column img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
